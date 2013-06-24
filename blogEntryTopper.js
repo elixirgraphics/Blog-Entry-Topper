@@ -10,15 +10,13 @@ DATE: May 9, 2011
 
 */
 
-$(document).ready(function(){
-
+$(document).ready(function($){
 	blogEntryTopperImg = $('.blog-entry img[alt^=blogEntryTopper]');
 	blogEntryTopperImg.hide();
 	blogEntryTopperImg.each(function() {
 		/* Applies special class to the image */
 		$(this).addClass('blogEntryTopperImg');  
-		/* Moves topper image to the top of the blog entry and wraps it in a div with a class of blogEntryTopper_wrapper which can be styled via CSS. */
+		/* Moves topper image to the top of the blog entry and wraps it in a div with a class of blogEntryTopper_wrapper  */
 		$(this).prependTo($(this).parent().parent()).show().wrap('<div class="blogEntryTopper_wrapper" />');
 	});
-
 });
