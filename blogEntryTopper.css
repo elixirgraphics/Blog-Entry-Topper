@@ -1,0 +1,13 @@
+.blogEntryTopperImg {
+	width: 100%;
+	height: auto;
+	/* Set your border radius here if you'd like the image to have rounded corners. */
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.blogEntryTopper_wrapper {
+	position: relative;
+	margin-bottom: 20px;
+}
