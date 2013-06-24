@@ -18,7 +18,8 @@ Using the blogEntryTopper feature in your own RapidWeaver themes is pretty easy.
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 ```
 
-3. Finally we'll call our javascript:
+3. Finally we'll call our javascript
+
 ```html
 <script src="%pathto(js/blogEntryTopper.js)%"></script>
 ```
