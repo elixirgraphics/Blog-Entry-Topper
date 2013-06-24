@@ -2,9 +2,7 @@
 
 -=-= BLOG ENTRY TOPPER =-=-
 
-DESCRIPTION: 	Handles the blog entry topper images. Finds image in blog entries with an ALT tag
-							of 'blogEntryTopper' and then moves image to the top of the entry. The theme's 
-							CSS autosizes the image to fit the blog entry's width.
+DESCRIPTION: 	Handles the blog entry topper images. Finds image in blog entries with an ALT tag of 'blogEntryTopper' and then moves image to the top of the entry. The theme's CSS autosizes the image to fit the blog entry's width.
 				
 AUTHOR: Adam Shiver
 VERSION: 1.0b
