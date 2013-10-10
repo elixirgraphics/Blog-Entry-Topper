@@ -9,5 +9,7 @@
 
 .blogEntryTopper_wrapper {
 	position: relative;
+	/* Adjusting this margin allows you to vary the distance between the bottom
+	   of the blogEntryTopper image and the blog entry's title. */
 	margin-bottom: 20px;
 }
